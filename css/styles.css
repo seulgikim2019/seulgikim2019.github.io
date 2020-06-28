@@ -205,9 +205,17 @@ svg {
   overflow: hidden;
   vertical-align: middle;
 }
+  
+th, td {
+    border: 1px solid #f045f6;
+    padding: 10px;
+    text-align: inherit;
+}
 
 table {
-  border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f045f6;
+    border-collapse: collapse;
 }
 
 caption {
@@ -218,9 +226,7 @@ caption {
   caption-side: bottom;
 }
 
-th {
-  text-align: inherit;
-}
+
 
 label {
   display: inline-block;
