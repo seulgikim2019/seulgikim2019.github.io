@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: black;
 }
 
 abbr[title],
@@ -205,9 +206,17 @@ svg {
   overflow: hidden;
   vertical-align: middle;
 }
+  
+th, td {
+    border: 1px solid #f045f6;
+    padding: 10px;
+    text-align: inherit;
+}
 
 table {
-  border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f045f6;
+    border-collapse: collapse;
 }
 
 caption {
@@ -218,9 +227,7 @@ caption {
   caption-side: bottom;
 }
 
-th {
-  text-align: inherit;
-}
+
 
 label {
   display: inline-block;
@@ -435,8 +442,9 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
-}
+  background-color: #fcf8e3; 
+/*   background-color: #ce7bee52; */
+  }
 
 .list-unstyled {
   padding-left: 0;
@@ -6097,7 +6105,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f045f6 !important;
+/*   background-color: #f045f6 !important; */
+  background-color: #7257CE !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,7 +9808,9 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f045f6 !important;
+/*   color: #f045f6 !important; */
+/*   color: #7257CE !important; */
+  color: black !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
