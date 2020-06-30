@@ -442,8 +442,9 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
-}
+/*   background-color: #fcf8e3; */
+  background-color: #ce7bee52;
+  }
 
 .list-unstyled {
   padding-left: 0;
