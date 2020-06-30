@@ -443,6 +443,7 @@ mark,
 .mark {
   padding: 0.2em;
   border: 2px solid #e7adee;
+  background-color: white;
 /*   background-color: #fcf8e3;  */
 /*   background-color: #ce7bee52; */
   }
